@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body><h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminau o tamanho do seu navegador.</p>
+
+   <picture>
+    <source media="(min-width: 750px)" srcset="Imagens/naruto.p.png" type="image/png">
+    <source media="(min-width: 1050px)" srcset="Imagens/naruto.m.png" type="image/png">
+    <img src="Imagens/naruto.g.png" alt="">
+   </picture>
+
+   <h1>Reproduzindo Áudio</h1>
+    <p>vamos aprender a reproduzir áudio em HTML5.</p>
+    <p>
+        <audio preload="metadata" autoplay controls loop
+           source src="midia/flash.mp3"type="audio/mpeg"
+           source src="midia/flash.ogg" type="audio/ogg"
+           source src="midia/flash.wav" type="audio/wav"
+           Infelizmente seu navehador não consegue reproduzir áudio.
+            href="midia/flash.mp3">Clique aqui para baixar o seu arquivo MP3</a>
+        ></audio>
+    </p>
+</body>
+</html>
