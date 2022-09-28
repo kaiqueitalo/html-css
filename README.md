@@ -4,4 +4,4 @@
 Estou aprendendo a criar sites !
 
 
-<a href="https://kaiqueitalo.github.io/html-css/exercicios/ex010/index.html"> Executar o Exercicio 010 <a>
+<a href="https://kaiqueitalo.github.io/exercicios/ex001/index.html"> Executar o Exercicio 010 <a>
