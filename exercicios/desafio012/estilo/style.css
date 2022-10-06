@@ -3,6 +3,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
 }
 
 html, body {
@@ -20,6 +21,10 @@ header {
 header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-size: 4.5vw;
+    
 }
 
 header > p {
@@ -42,24 +47,55 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 1.2em;
+    
+}
+
+section > p {
+    width: 400px ;
+    background-color: rgba(0, 0, 0, 0.493);
+    padding-bottom: 2em;
+    color: white;
+
 }
 
 section.imagem > p {
-    background-color: rgb(63, 62, 62);
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.993);
+    text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.541);
 }
 
 
 section.imagem {
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.822);
+    background-attachment: fixed;
 }
 
 
 section.normal {
-    background-color: white;
+    background-color: rgb(3, 3, 3);
     color: black;
 }
+
+
+section#img01 {
+
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+
+}
+
+section#img02{
+background-image: url(../imagens/background002.jpg);
+
+background-size: cover;
+}
+
 
 footer {
     background-color: black;
